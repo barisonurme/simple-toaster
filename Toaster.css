@@ -1,0 +1,35 @@
+.toaster {
+  color: wheat;
+  font-size: 15px;
+  padding: 15px;
+  border-width: 1px;
+  border-color: rgba(245, 222, 179, 0.309);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgba(250, 235, 215, 0.101);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.toaster-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+
+  position: fixed;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, 0%);
+  transition-duration: 1000;
+}
+
+.toaster.exited {
+  color: wheat;
+  opacity: 0;
+}
+
+.toaster.entered {
+  color: wheat;
+  opacity: 1;
+}
