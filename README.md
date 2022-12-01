@@ -1,2 +1,1 @@
-# simple-toaster
-# simple-toaster
+Simple toaster script.
